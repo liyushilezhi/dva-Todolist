@@ -1,0 +1,48 @@
+.layout {
+  margin: 3rem auto;
+  max-width: 500px;
+  position: relative;
+}
+.layout input[type='text'] {
+  width: 80%;
+  margin-right: 0.85rem;
+}
+.layout .list {
+  margin-top: 0.5rem;
+  background-color: #fff;
+}
+
+.layout .btndel {
+  position: absolute;
+  right: 20px;
+}
+
+.layout .check {
+  text-decoration: line-through;
+}
+html,
+body,
+ :global(#root) {
+    /* height: 100%; */
+    background-color: #F0F2F5;
+}
+.imgBox{
+  position: absolute;
+  left: -17rem;
+  border-radius: 8px;
+  height: 14rem;
+  width: 14rem;
+}
+.imgBox p{
+  text-align: center;
+  margin: 0;
+  margin: 5px;
+}
+.imgBox p a{
+  color:salmon;
+}
+.imgBox img{
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
